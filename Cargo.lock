@@ -1570,6 +1570,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "desktop-bridge"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "base64",
+ "dirs 5.0.1",
+ "ed25519-dalek",
+ "native-tls",
+ "relay-tunnel",
+ "serde",
+ "serde_json",
+ "sha2 0.10.9",
+ "ssh-key",
+ "tokio",
+ "tokio-tungstenite 0.24.0",
+ "tokio-util",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
 name = "deunicode"
 version = "1.6.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5868,6 +5889,7 @@ dependencies = [
  "chrono",
  "db",
  "deployment",
+ "desktop-bridge",
  "dotenv",
  "ed25519-dalek",
  "embedded-ssh",
