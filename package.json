@@ -7,7 +7,8 @@
   },
   "files": [
     "npx-cli/bin/**",
-    "npx-cli/dist/**"
+    "npx-cli/dist/**",
+    "npx-cli/package.json"
   ],
   "scripts": {
     "lint": "pnpm run local-web:lint && pnpm run ui:lint && pnpm run backend:lint && node scripts/check-unused-i18n-keys.mjs",
